@@ -8,9 +8,8 @@ export default function Home() {
     <div className="app-container">
       <section className="bio">
         <div className="titlediv">
-          <h1>
-            Hi, I am Pablo.<br></br>
-          </h1>
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
+          <h1>Hello, I'm Pablo.<br></br></h1>
           <h3>Software Engineer II</h3>
           <a
             className="contactme"
