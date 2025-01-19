@@ -46,13 +46,15 @@ export default function Home() {
                   <h3>{project.shortDescription}</h3>
                   <div className="whitetech">
                     {project.technologies.map((tech, index) => {
-                      return <Image title={tech.name} src={tech.techUsed} alt="technology icon" key={`${index}-image`} />;
+                      return <Image title={tech.name} src={tech.techUsed} alt="technology icon" key={`${index}-image`} width={45} height={45} />;
                     })}
                   </div>
                 </div>
                 <Image
                 src={project.bannerImage}
                 alt={`Banner for ${project.name}`}
+                width={640}
+                height={430}
               />
               </div>
             );
