@@ -9,7 +9,7 @@ export default function Home() {
       <section className="bio">
         <div className="titlediv">
           <h1>
-            Hey, I'm Pablo.<br></br>
+            Hi, I am Pablo.<br></br>
           </h1>
           <h3>Software Engineer II</h3>
           <a
